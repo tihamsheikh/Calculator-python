@@ -1,5 +1,6 @@
+# Created with tkinter lib
+
 import tkinter as tk
-import math
 
 # window init
 app = tk.Tk()
@@ -24,7 +25,6 @@ def click(btn):
 
         except Exception:
             input_display.set("Error ")
-
 
     elif btn == "√":  # exponential
         try:
